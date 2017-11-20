@@ -8,10 +8,10 @@ class HeightWidth extends Component {
 
     render() {
         return (
-            <View>
-                <View style={{ height: 50, width: 50, backgroundColor:"#FF00FF" }}></View>
-                <View style={{ height: 100, width: 100, backgroundColor:"#FFFF00" }}></View>
-                <View style={{ height: 150, width: 150, backgroundColor:"#00FFFF" }}></View>
+            <View style={{ flex:1 }}>
+                <View style={{ backgroundColor:"#FF00FF", flex: 1 }}></View>
+                <View style={{ backgroundColor:"#FFFF00", flex: 2 }}></View>
+                <View style={{ backgroundColor:"#00FFFF", flex: 3 }}></View>
             </View>
         );
     }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { AppRegistry, View, Text, StyleSheet } from "react-native";
-import HeightWidht from "./src/components/HeightWidth";
+import HeightWidth from "./src/components/HeightWidth";
 
 const styles = StyleSheet.create({
   bigBlue: {
@@ -22,8 +22,8 @@ export default class App extends Component {
   render() {
     return (
       // view native component
-      <View>
-        <HeightWidht />
+      <View style={{ flex: 1 }}>
+        <HeightWidth />
         {/* <Text style={styles.bigBlue}>
           Big Blue Font
         </Text>
